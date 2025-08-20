@@ -1,0 +1,9 @@
+# Music Player
+
+## Project Overview
+
+A modern, feature-rich music player application with intuitive controls and seamless playback experience.
+
+## Project Goal
+
+To create a reliable, user-friendly music player that handles various audio formats and provides an excellent listening experience.
