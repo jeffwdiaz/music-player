@@ -8,7 +8,7 @@ A standalone desktop music player for Windows 11 with minimal design, focusing o
 
 ### Recommended Platform
 
-- Language: C# (.NET 6 or later)
+- Language: C# (.NET 6)
 - UI Framework: WPF (Windows Presentation Foundation)
 - Target OS: Windows 11 (with Windows 10 compatibility)
 - Architecture: 64-bit
@@ -167,7 +167,7 @@ public class Album
 
 ## Development Environment Setup
 
-- Framework: .NET 6 LTS or .NET 8 LTS
+- Framework: .NET 6 LTS
 - Package Manager: NuGet for dependencies
 - Version Control: Git recommended
 
