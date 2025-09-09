@@ -14,6 +14,10 @@
 - Implemented Song model class with complete metadata support
 - Created song-model-class.md documentation explaining the Song model
 - Added build output directory with compiled application
+- Created AudioEngine class for comprehensive audio playback functionality
+- Implemented Album model class with track management and cover art support
+- Created MetadataService for reading file metadata from multiple audio formats
+- Added folder documentation files explaining each directory's purpose
 
 [Changed]
 

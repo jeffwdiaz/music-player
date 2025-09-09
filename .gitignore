@@ -2,7 +2,7 @@
 **/.cursor/**
 
 # All archive folders and all files within
-**/.archive/**
+**/archive/**
 
 # All environment variable files
 **/.env
@@ -10,3 +10,16 @@
 
 # <--- AI Content Boundary
 # <--- AI model has written all content below this line
+
+# .NET build outputs
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Windows system files
+Thumbs.db
+Desktop.ini

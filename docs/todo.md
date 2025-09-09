@@ -2,13 +2,10 @@
 
 ## Current task
 
-- [ ] Create AudioEngine class for playback functionality
-- [ ] Create Album model class
-- [ ] Create MetadataService for reading file metadata
+- [ ] Implement play, pause, stop controls (in AudioEngine)
 
 ## Future tasks
 
-- [ ] Implement play, pause, stop controls (in AudioEngine)
 - [ ] Add volume control slider (in AudioEngine)
 - [ ] Create progress bar with seeking capability (in AudioEngine)
 - [ ] Test basic audio playback with MP3 files (AudioEngine only)
@@ -36,6 +33,9 @@
 - [x] Create "stuck" rule for troubleshooting workflow
 - [x] Install required NuGet packages (NAudio, TagLibSharp)
 - [x] Implement basic Song model class
+- [x] Create AudioEngine class for playback functionality
+- [x] Create Album model class
+- [x] Create MetadataService for reading file metadata
 
 ## Notes
 

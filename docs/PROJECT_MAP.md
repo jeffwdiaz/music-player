@@ -25,6 +25,8 @@
 | | MusicPlayer.csproj
 | |
 | +---bin
+| | | what-is-bin.md
+| | |
 | | \---Debug
 | | \---net6.0-windows
 | | MusicPlayer.deps.json
@@ -42,8 +44,13 @@
 | | TagLibSharp.dll
 | |
 | +---Core
+| | | AudioEngine.cs
+| | | what-is-Core.md
+| |
 | +---Models
-| | Song.cs
+| | | Album.cs
+| | | Song.cs
+| | | what-is-Models.md
 | |
 | +---obj
 | | | MusicPlayer.csproj.nuget.dgspec.json
@@ -51,6 +58,7 @@
 | | | MusicPlayer.csproj.nuget.g.targets
 | | | project.assets.json
 | | | project.nuget.cache
+| | | what-is-obj.md
 | | |
 | | \---Debug
 | | \---net6.0-windows
@@ -89,8 +97,14 @@
 | | MusicPlayer.dll
 | |
 | +---Services
+| | | MetadataService.cs
+| | | what-is-Services.md
+| |
 | +---ViewModels
-| +---Views
+| | | what-is-ViewModels.md
+| |
+| \---Views
+| what-is-Views.md
 
 ## Folder & File Descriptions
 
@@ -113,10 +127,19 @@
   - **MusicPlayer.csproj**: Project file with dependencies and configuration.
   - **bin/**: Compiled application output directory.
     - **Debug/net6.0-windows/**: Debug build output with executable and dependencies.
-  - **Core/**: Business logic and core functionality (AudioEngine, LibraryManager, SettingsManager).
-  - **Models/**: Data structures (Song, Album, Playlist).
+  - **Core/**: Business logic and core functionality.
+    - **AudioEngine.cs**: Audio playback engine with play, pause, stop, volume control, and seeking functionality.
+    - **what-is-Core.md**: Documentation explaining the Core folder's purpose.
+  - **Models/**: Data structures and entities.
     - **Song.cs**: Song model class with metadata and file information.
+    - **Album.cs**: Album model class with track management and cover art support.
+    - **what-is-Models.md**: Documentation explaining the Models folder's purpose.
   - **Views/**: User interface files (XAML).
+    - **what-is-Views.md**: Documentation explaining the Views folder's purpose.
   - **ViewModels/**: Logic connecting Views to Models (MVVM pattern).
-  - **Services/**: Helper classes (MetadataService, FileService).
+    - **what-is-ViewModels.md**: Documentation explaining the ViewModels folder's purpose.
+  - **Services/**: Helper classes and utility services.
+    - **MetadataService.cs**: Service for reading file metadata from multiple audio formats using TagLibSharp.
+    - **what-is-Services.md**: Documentation explaining the Services folder's purpose.
   - **obj/**: Build output and temporary files.
+    - **what-is-obj.md**: Documentation explaining the obj folder's purpose.
