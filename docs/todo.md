@@ -2,7 +2,7 @@
 
 ## Current task
 
-- [ ] Implement play, pause, stop controls (in AudioEngine)
+- [ ] Build full music player UI with proper controls
 
 ## Future tasks
 
@@ -36,6 +36,10 @@
 - [x] Create AudioEngine class for playback functionality
 - [x] Create Album model class
 - [x] Create MetadataService for reading file metadata
+- [x] Test AudioEngine with real audio files
+- [x] Create interactive test UI
+- [x] Fix compilation errors and file path issues
+- [x] Add BUILD_AND_RUN.md for quick reference
 
 ## Notes
 
@@ -44,4 +48,5 @@
 - Performance: Monitor memory usage and startup time throughout development
 - Windows Integration: Test media controls early to ensure compatibility
 - Project is now properly organized with MVVM architecture
-- Ready to begin implementing core functionality
+- AudioEngine is fully functional and tested with real audio files
+- Ready to build full music player UI

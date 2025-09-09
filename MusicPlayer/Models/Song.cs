@@ -48,6 +48,31 @@ namespace MusicPlayer.Models
         public int Year { get; set; }
 
         /// <summary>
+        /// Album artist name from metadata
+        /// </summary>
+        public string AlbumArtist { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Genre from metadata
+        /// </summary>
+        public string Genre { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Audio bitrate in kbps
+        /// </summary>
+        public int Bitrate { get; set; }
+
+        /// <summary>
+        /// Audio sample rate in Hz
+        /// </summary>
+        public int SampleRate { get; set; }
+
+        /// <summary>
+        /// Number of audio channels
+        /// </summary>
+        public int Channels { get; set; }
+
+        /// <summary>
         /// File name without path
         /// </summary>
         public string FileName => System.IO.Path.GetFileName(FilePath);

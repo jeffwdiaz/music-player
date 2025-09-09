@@ -5,6 +5,7 @@
 . (project root)
 | .gitignore
 | .gitmodules
+| BUILD_AND_RUN.md
 | README.md
 |
 +---docs
@@ -23,6 +24,7 @@
 | | MainWindow.xaml
 | | MainWindow.xaml.cs
 | | MusicPlayer.csproj
+| | TestAudioEngine.cs
 | |
 | +---bin
 | | | what-is-bin.md
@@ -105,11 +107,15 @@
 | |
 | \---Views
 | what-is-Views.md
+|
++---test-music
+| testfile.mp3
 
 ## Folder & File Descriptions
 
 - **.gitignore**: Git ignore rules for the project.
 - **.gitmodules**: Git submodule configuration.
+- **BUILD_AND_RUN.md**: Quick reference for building and running the application.
 - **README.md**: Project overview and instructions.
 - **docs/**: Project documentation folder.
   - **CHANGELOG.md**: Project changelog tracking all changes.
@@ -125,6 +131,7 @@
   - **MainWindow.xaml**: Main window UI design.
   - **MainWindow.xaml.cs**: Main window code-behind.
   - **MusicPlayer.csproj**: Project file with dependencies and configuration.
+  - **TestAudioEngine.cs**: Test program for verifying AudioEngine functionality.
   - **bin/**: Compiled application output directory.
     - **Debug/net6.0-windows/**: Debug build output with executable and dependencies.
   - **Core/**: Business logic and core functionality.
@@ -143,3 +150,5 @@
     - **what-is-Services.md**: Documentation explaining the Services folder's purpose.
   - **obj/**: Build output and temporary files.
     - **what-is-obj.md**: Documentation explaining the obj folder's purpose.
+- **test-music/**: Test audio files for development and testing.
+  - **testfile.mp3**: Test audio file for verifying AudioEngine functionality.

@@ -26,7 +26,7 @@ namespace MusicPlayer.Services
         /// <returns>Song object with metadata, or null if file cannot be read</returns>
         public Song? ReadSongMetadata(string filePath)
         {
-            if (string.IsNullOrEmpty(filePath) || !File.Exists(filePath))
+            if (string.IsNullOrEmpty(filePath) || !System.IO.File.Exists(filePath))
                 return null;
 
             if (!IsSupportedFile(filePath))
@@ -144,13 +144,13 @@ namespace MusicPlayer.Services
             foreach (var album in albumGroups)
             {
                 var firstSongWithArt = album.Songs.FirstOrDefault(s => s.AlbumArt != null && s.AlbumArt.Length > 0);
-                if (firstSongWithArt != null)
+                if (firstSongWithArt != null && firstSongWithArt.AlbumArt != null)
                 {
                     album.SetCoverArt(firstSongWithArt.AlbumArt);
                 }
             }
 
-            return albumGroups;
+            return albumGroups ?? Array.Empty<Album>();
         }
 
         /// <summary>
@@ -208,7 +208,7 @@ namespace MusicPlayer.Services
         /// <returns>Album art as byte array, or null if not found</returns>
         public byte[]? ExtractAlbumArtFromFile(string filePath)
         {
-            if (string.IsNullOrEmpty(filePath) || !File.Exists(filePath))
+            if (string.IsNullOrEmpty(filePath) || !System.IO.File.Exists(filePath))
                 return null;
 
             if (!IsSupportedFile(filePath))

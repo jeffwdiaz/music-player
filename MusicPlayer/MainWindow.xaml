@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Music Player" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <Button Name="TestButton" Content="Test AudioEngine with testfile.mp3" 
+                    Click="TestButton_Click" 
+                    Padding="10,5" 
+                    FontSize="14"
+                    HorizontalAlignment="Center"
+                    Margin="0,0,0,10"/>
+            <TextBlock Name="StatusText" Text="Click the button to test audio playback" 
+                       HorizontalAlignment="Center" 
+                       FontSize="12" 
+                       Foreground="Gray"
+                       TextWrapping="Wrap"
+                       Width="400"
+                       TextAlignment="Center"/>
+        </StackPanel>
     </Grid>
 </Window>

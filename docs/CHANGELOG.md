@@ -18,6 +18,10 @@
 - Implemented Album model class with track management and cover art support
 - Created MetadataService for reading file metadata from multiple audio formats
 - Added folder documentation files explaining each directory's purpose
+- Successfully tested AudioEngine with real audio files
+- Created interactive test UI with play/stop functionality
+- Fixed compilation errors and file path issues
+- Added BUILD_AND_RUN.md for quick reference
 
 [Changed]
 
