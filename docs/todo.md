@@ -2,24 +2,35 @@
 
 ## Current task
 
-- [ ] Build full music player UI with proper controls
+- [ ] Design minimal black and white UI theme
 
 ## Future tasks
 
+### Phase 1: Basic UI and Controls
+
+- [ ] Build basic MainWindow layout
 - [ ] Add volume control slider (in AudioEngine)
 - [ ] Create progress bar with seeking capability (in AudioEngine)
-- [ ] Test basic audio playback with MP3 files (AudioEngine only)
-- [ ] Test basic audio playback with FLAC files (AudioEngine only)
-- [ ] Design minimal black and white UI theme
-- [ ] Build basic MainWindow layout
 - [ ] Connect UI controls to AudioEngine
 - [ ] Test complete UI integration with audio playback
+
+### Phase 2: File Management
+
 - [ ] Create LibraryManager for file and folder management
 - [ ] Implement file/folder selection dialog
+- [ ] Test basic audio playback with MP3 files (AudioEngine only)
+- [ ] Test basic audio playback with FLAC files (AudioEngine only)
+
+### Phase 3: Library Views
+
 - [ ] Create SongListView for displaying song list
 - [ ] Create AlbumGridView for displaying album grid
 - [ ] Add next/previous track navigation
+
+### Phase 4: Polish and Features
+
 - [ ] Implement playback position memory
+- [ ] Build full music player UI with proper controls
 
 ## Completed tasks
 
