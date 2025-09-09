@@ -3,6 +3,16 @@
 ## Current task
 
 - [ ] Design minimal black and white UI theme
+  - [ ] Review current MainWindow.xaml structure
+  - [ ] Plan basic layout (header, content area, controls)
+  - [ ] Design volume control slider
+  - [ ] Design progress bar with seeking capability
+  - [ ] Design play/pause/stop button controls
+  - [ ] Create minimal black/white color scheme
+  - [ ] Implement basic XAML layout structure
+  - [ ] Connect UI controls to AudioEngine
+  - [ ] Test UI integration with audio playback
+  - [ ] Refine layout and styling
 
 ## Future tasks
 
