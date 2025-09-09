@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿// This file (MainWindow.xaml.cs) controls the main window you see when the app opens.
+// Right now it just has a test button, but later it will have the full music player interface.
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;

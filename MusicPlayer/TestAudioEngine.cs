@@ -1,3 +1,5 @@
+// This is a test program (TestAudioEngine) to make sure the music playing part works correctly.
+// It lets you test playing music from the command line (console) to check if everything is working.
 using System;
 using System.Threading;
 using MusicPlayer.Core;

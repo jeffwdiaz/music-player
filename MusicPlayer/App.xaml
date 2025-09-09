@@ -1,4 +1,5 @@
-﻿<Application x:Class="MusicPlayer.App"
+﻿<!-- This file (App.xaml) tells the app how to start up and what resources to use. -->
+<Application x:Class="MusicPlayer.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:MusicPlayer"

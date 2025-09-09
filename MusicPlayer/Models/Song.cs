@@ -1,3 +1,5 @@
+// This file defines what a "song" looks like (data model) in our music player.
+// It stores information like the song title, artist, album, and where the file is located.
 using System;
 
 namespace MusicPlayer.Models

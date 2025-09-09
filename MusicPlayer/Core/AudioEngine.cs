@@ -1,3 +1,5 @@
+// This is the heart of the music player (AudioEngine) - it actually plays the music files.
+// It handles playing, pausing, stopping, changing volume, and jumping to different parts of songs.
 using System;
 using System.IO;
 using NAudio.Wave;

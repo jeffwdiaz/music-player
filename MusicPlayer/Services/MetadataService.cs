@@ -1,3 +1,5 @@
+// This file (MetadataService) reads information from music files (like song title, artist, album cover).
+// It can read different types of music files like MP3 and FLAC to get this information (metadata).
 using System;
 using System.IO;
 using TagLib;

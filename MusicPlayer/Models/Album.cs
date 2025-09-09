@@ -1,3 +1,5 @@
+// This file defines what an "album" looks like (data model) in our music player.
+// It groups songs together and stores album information like the cover picture and track order.
 using System;
 using System.Collections.Generic;
 using System.Linq;
